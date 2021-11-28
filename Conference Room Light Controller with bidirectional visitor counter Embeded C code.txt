@@ -29,10 +29,13 @@ Int count=0;
 int number(10) (48,49,50,51,52,53,54,55,56,57):
 
 Void delay (int d)
+
 {
+
 Unsigned char i=0;
 
 For (d=10; d>0; d--);
+
 {
 
 For (i=250; i>0; i--);
@@ -42,6 +45,7 @@ For (i=248; i>0; i--);
 }
 
 }
+
 void cmd(char c)
 
 {
