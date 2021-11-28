@@ -57,6 +57,7 @@ Delay(5);
 e=0;
 
 }
+
 Void display(Unsigend char c)
 
 {
