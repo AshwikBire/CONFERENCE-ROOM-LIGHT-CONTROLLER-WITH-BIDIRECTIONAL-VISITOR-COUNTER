@@ -8,15 +8,17 @@ INTRODUCTION - The objective of this project is to make a controller based model
   
   
 BLOCK DIAGRAM DISCRIPTION -
+
 The basic block diagram of the bidirectional visitor counter with automatic Room light controller is shown in above figure. Mainly this block diagram consists of following essential block.
 
-1. Power Supply
+1) Power Supply
 
-2 Entry and Exit sensor circuit
+2) Entry and Exit sensor circuit
 
-3. AT 89S52 micro-controller
+3) AT 89S52 micro-controller
 
-4. Relay driver circuit
+4) Relay driver circuit
+ 
 
 1]. Power Supply:
 
@@ -64,11 +66,11 @@ I] Microcontroller
 
 4] Relay Module
 
+5] Lamp
+
 6] Transformer
 
 7] Reset Button Switch
-
-5) Lamp
 
 8] Transistor
 
