@@ -1,0 +1,241 @@
+#include reg51.h>
+
+#define LCD PO
+
+Sbit rs=P2^20; 
+
+Sbit e=P2^2;
+
+Sbit rw=P2^1:
+
+Sbit relay=P2^7;
+
+Shit sl=P3^0:
+
+Shit s2-P3^1;
+
+Void delay (int);
+
+Void cmd (unsigned char);
+
+Void int t (void);
+
+Void string (char*);
+
+Void view (int);
+
+Int count=0;
+
+int number(10) (48,49,50,51,52,53,54,55,56,57):
+
+Void delay (int d)
+{
+Unsigned char i=0;
+
+For (d=10; d>0; d--);
+{
+
+For (i=250; i>0; i--);
+
+For (i=248; i>0; i--);
+
+}
+
+}
+void cmd(char c)
+
+{
+
+LCD=c;
+
+Rs=0;
+
+e=1;
+
+Delay(5);
+
+e=0;
+
+}
+Void display(Unsigend char c)
+
+{
+
+LCD=c;
+
+Rs=0;
+
+e=0;
+
+Delay(5)
+
+e=0;
+
+}
+
+Void string(char*p)
+
+{
+
+While(*p)
+
+{
+
+Display(*p++);
+
+}
+
+Void view(int n)
+
+{
+
+cmd(0xc0);
+
+Display(number[n/10%10]);
+
+Display(number [n%10]);
+
+//display(n);
+
+}
+
+void int t(void)
+
+{
+
+cmd (0x38);
+
+cmd(0x0c);
+
+cmd(0x01);
+
+cmd(0x80);
+
+}
+
+void main()
+
+{
+
+int t=0;
+
+string("Number of vision");
+
+cmd(0xc0);
+
+View(count);
+
+While();
+
+{
+
+If(s1==0)
+
+{
+
+While(s2==1);
+
+If(count<99)
+
+{
+
+Count=count=1;
+
+}
+
+Else
+
+Count=0
+
+}
+
+While(s2==1);
+
+View(count);
+
+Delay(5);
+
+}
+
+Else
+
+If(s2==0);
+
+{
+
+While(s1==1);
+
+{
+
+}
+
+If(count!=0)
+
+{
+
+Count=count-1;
+
+}
+
+While(s1==0);
+
+View(count);
+
+Delay(5);
+
+}
+
+Else
+
+If(s2==0);
+
+}
+
+While(S1==1);
+
+{
+
+}
+
+If(count==0)
+
+{
+
+Count=count-1;
+
+}
+
+while(s1==0);
+
+View(count);
+
+Delay(5);
+
+}
+
+If(count==1);
+
+{
+
+Relay=1;
+
+}
+
+If(count==0);
+
+{
+
+Relay=0;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
