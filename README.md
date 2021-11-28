@@ -95,13 +95,12 @@ I] Microcontroller
 
 APPLICATIONS - 
 
--Digital visitor counter can be used in various rooms like seminar hall, conference hall, where the capacity of room is limited and should not be exceed. "CONFEERENCE ROOM LIGHT CONTROLLER WITH BIDIRECTIONAL
-
-VISITOR COUNTER" can be used in class rooms,
+-Digital visitor counter can be used in various rooms like seminar hall, conference hall, where the capacity of room is limited and should not be exceed. "CONFEERENCE ROOM LIGHT CONTROLLER WITH BIDIRECTIONAL VISITOR COUNTER" can be used in class rooms,
 
 -Automatic room light controller project can also be used in our home because many times we come out of our bedroom or any other room and we forgot to turn off the room light.
 
 -Bidirectional counter project can be used in cinema halls, multiplex, malls, as well as in the temples to count the number of person entering inside, so that this place should not get over crowded to avoid congestion.
+
 
 ADVANTAGES - 
 
